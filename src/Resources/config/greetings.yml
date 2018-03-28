@@ -1,0 +1,9 @@
+greetings:
+  de:
+    morning: "Guten Morgen"
+    day: "Guten Tag"
+    night: "Guten Abend"
+  en:
+    morning: "Good morning"
+    day: "Hello"
+    night: "Good evening"
