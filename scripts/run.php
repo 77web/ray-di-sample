@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 use PHPMentors\DomainCommons\DateTime\Clock;
