@@ -13,7 +13,10 @@ use Symfony\Component\Yaml\Yaml;
 
 require __DIR__.'/../vendor/autoload.php';
 
-putenv('lang=de');
+ini_set('date.timezone', 'Asia/Tokyo');
+if (!getenv('lang')) {
+    putenv('lang=de');
+}
 
 $timeDetector = TimeDetector::createFromConfig([
     'morning' => range(4, 10),
